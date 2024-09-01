@@ -1,0 +1,95 @@
+.rightSideHome{
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    width: 100%;
+}
+.topProfileRight{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -50px;
+}
+
+.imageDivRightSide{
+    width: 45px;
+    height: 40px;
+    border-radius: 100%;
+}
+.imageRightSideProfile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.userNameBlock{
+    display: flex;
+    flex-direction: column;
+
+}
+.userNameRightSide{
+    font-size: 14px;
+    font-weight: 500;
+}
+.userFullName{
+    color: #999999;
+    font-size: 13px;
+}
+.switchBtn{
+    margin-left: 60px;
+    color: #0095F6;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+}
+.leftRightProfile{
+    display: flex;
+    gap: 2px;
+}
+.buttomRightSide{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 40px;
+}
+.suggestedBlock{
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: -18px;
+   
+}
+.followBlockRightSide{
+    display: flex;
+    flex-direction: column;
+}
+.topProfileRightBottomProfile{
+    display: flex;
+    width: 100%;
+    align-items: center;
+   margin-top: 20px;
+    font-size: 1px;
+    margin-left: -50px;
+}
+.switchBtnButtom{
+    margin-left: 20px;
+    color: #0095F6;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.userFullNamebuttom{
+    color: #999999;
+    font-size: 14px;
+}
+.bottmtext{
+    font-size: 11px;
+    margin-left: -40px;
+    color: #999999;
+    align-items: center;
+    margin-top: 25px;
+}

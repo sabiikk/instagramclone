@@ -1,0 +1,147 @@
+.middleHomeSide{
+    width: 95%;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.storyBlock{
+    width: 760px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow-x: auto;
+}
+.storyBlock::-webkit-scrollbar{
+    display: none;
+}
+.storyParticular{
+    width: 66px;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgeDiv{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    padding: 2px;
+    border: 2px solid purple;
+    cursor: pointer;
+
+}
+.statusImg{
+    width: 100%;
+    height: 56px;
+    border-radius: 100%;
+}
+.profileName{
+    font-size: 10px;
+}
+
+
+/* cardsection */
+
+.postSection{
+    width: 60%;
+}
+
+.post{
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999999;
+}
+.postInfo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+
+}
+.postInfoImg{
+    width: 40px;
+    border-radius: 100%;
+    border: 2px solid purple;
+    cursor: pointer;
+    
+   
+}
+.postInfoUsername{
+    font-size: 15px;
+    font-weight: 500;
+}
+.timingInfo{
+    color: #999999;
+    font-size: 13px;
+    
+}
+.postImage{
+    width: 100%;
+    
+}
+.iconsBlock{
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.leftIcon{
+    display: flex;
+    gap: 13px;
+}
+.likeImg{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+}
+.imagesLike{
+    position: relative;
+}
+.likeSection{
+    width: 100%;
+}
+.likeImg2{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 3%;
+}
+.noOfLikes{
+    font-size: 13px;
+    position: absolute;
+    font-weight: 700;
+    margin-left: 38px;
+    align-items: center;
+}
+.postAbout{
+    width: 100%;
+    margin-top: 23px;
+    display: flex;
+}
+.postAboutName{
+    font-size: 14px;
+    font-weight: 500;
+}
+.infoComments{
+    font-size: 14px;
+    margin-left: 8px;
+}
+.noOfComments{
+    color: #999999;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.addComment{
+    color: #999999;
+    margin-top: 5px;
+    font-size: 14px;
+}
